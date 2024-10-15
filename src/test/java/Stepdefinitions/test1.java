@@ -88,9 +88,9 @@ public class test1 {
 		 driver.findElement(By.xpath("//button[@type='submit']")).click();
 		 Thread.sleep(3000);
 			
-	//driver.findElement(By.xpath("//p[@class='oxd-text oxd-text--p oxd-alert-content-text']"));
-//	driver.findElement(By.xpath("//p[text()='Invalid credentials']"));
-		 System.out.println("user entered incorrect details");
+	
+	//String text=driver.findElement(By.xpath("//p[text()='Invalid credentials']")).getText();
+		 System.out.println("user entered invalid details");
 		 Thread.sleep(3000);
 	}
 	@Then("user valid text message")
